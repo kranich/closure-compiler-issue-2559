@@ -1,0 +1,20 @@
+{
+  "name": "closure-compiler-issue-2559",
+  "version": "1.0.0",
+  "description": "A minimal failing example for Closure Compiler issue #2559",
+  "main": "Foo.js",
+  "scripts": {
+    "prepare": "make",
+    "test": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kranich/closure-compiler-issue-2559.git"
+  },
+  "author": "Stefan Kranich <kranich@ma.tum.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kranich/closure-compiler-issue-2559/issues"
+  },
+  "homepage": "https://github.com/kranich/closure-compiler-issue-2559#readme"
+}
