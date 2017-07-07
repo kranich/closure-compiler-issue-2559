@@ -18,5 +18,5 @@ import {
 # Notes
 
 * Compilation works with v20170521.
-* Error disappears if we replace lines 1-4 of Bar.js with `import { Baz } from './Baz.js';`.
+* Error disappears if we replace lines 1-4 of Bar.js with `import { Baz } from './Baz.js';`. ([js-beautify](https://github.com/beautify-web/js-beautify) spreads the import over 4 lines.)
 * I did not manage to reproduce the issue with only two modules.
