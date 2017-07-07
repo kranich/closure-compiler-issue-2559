@@ -14,3 +14,9 @@ import {
 
 1 error(s), 0 warning(s)
 ```
+
+# Notes
+
+* Compilation works with v20170521.
+* Error disappears if we replace lines 1-4 of Bar.js with `import { Baz } from './Baz.js';`.
+* I did not manage to reproduce the issue with only two modules.
